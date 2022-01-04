@@ -1,13 +1,13 @@
-![QubartStudios](assets/images/QubArtSudiosJakubTomczykPhotographyLogo-350x182.jpg "Qubart Studios")
+![QubartStudios](assets/images/QubArtSudiosJakubTomczykPhotographyLogo-350x182.jpg "QubartStudios")
 
-# Qubart Studios 
+# qubartstudios.com 
 
-# goal for this project
-Welcome to Qubart Studios. This is a professional photographer's website. The domain of Qubart Studios is wedding photography. 
+# goal of this project
+Welcome to Qubart Studios. This is a professional photographer's website. The domain of qubartstudios.com is wedding photography. 
 
-The site targets potential cusotmers who are planning their weddings. It gives an overview of previous artwork and backs it up with strong customer testimonials.
+The site targets potential customers who are planning their weddings. It gives an overview of previous artwork and backs it up with strong customer testimonials.
 
-Customers can get in touch with the studio direclty by the phone, through the contact form or social media.
+Customers can get in touch with the studio directly by the phone, through the contact form or social media.
 
 The main goal of the project is to give a modern look to the old website and learn along the way.
 
@@ -15,33 +15,36 @@ The main goal of the project is to give a modern look to the old website and lea
 
 * [UX](#ux "UX")
     * [user goals](#user-goals "user goals")
-    * [user stories](#user-stories "user atories")
-    * [site owners Goals](#site-owners-goals)
+    * [user stories](#user-stories "user stories")
+    * [site owner goals](#site-owner-goals "site owner goals")
     * [user requirements and expectations](#user-requirements-and-expectations)
          * [requirements](#requirements)
          * [expectations](#expectations)
      * [design choices](#design-choices)
         * [fonts](#fonts)
         * [icons](#icons)
-        * [colours](#colours)
+        * [colors](#colors)
         * [structure](#structure)
     * [wireframes](#wireframes)
     * [features](#features)
         * [existing features](#existing-features)
             * [navigation bar](#navigation-bar)
-            * [landing page](#landing-page)
+            * [home page](#home-page "home page")
+            * [ethos section](#ethos-section)
+            * [portfolio section and page](#portfolio-section-and-page)
             * [about section](#about-section)
-            * [events section](#events-section)
+            
             * [contact section](#contact-section)
             * [footer](#footer)
-        * [features to be implemented](#features-to-be-implemented)
-    * [technologies used](#technologies-used)
-        * [languages](#languages)
-        * [tools and libraries](#tools-and-libraries)
-    * [Testing](#testing)
-        * [unfixed bugs](#unfixed-bugs)
-    * [deployment](#deployment)
-    * [credits](#credits)
+        * [future developments](#future-developments "future developments")
+    * [technologies used](#technologies-used "technologies used")
+        * [languages](#languages "languages")
+        * [libraries and frameworks](#libraries-and-frameworks "libraries and frameworks")
+        * [tools](#tools "tools")
+    * [testing](#testing "testing")
+        * [unfixed bugs](#unfixed-bugs "unfixed bugs")
+    * [deployment](#deployment "deployment")
+    * [credits](#credits "credits")
     
 # UX
 
@@ -70,53 +73,51 @@ The main goal of the project is to give a modern look to the old website and lea
 * increase customer conversion
 * optimise organic SEO
 
+## user requirements and expectations
+
 ### requirements
 * clearly visible contact details and methods
 * information about services
-* visaully appealing, neat and tidy design
-* responsive desing to accomdate modern screen sizes
+* visually appealing, neat and tidy design
+* responsive design to accommodate modern screen sizes
 
-### Expectations
+### expectations
 * I expect to see contact details on every page
-* I expect all contanct details to be correct
+* I expect all contact details to be correct
 * I expect all links to work
 * I expect all external links to open in new tabs
 * I expect fast website load without loss of image quality
 * I expect confirmation message on form submission
-* I expect webiste will work on phones, tablets and laptops
+* I expect website will work on phones, tablets and laptops
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-## Design Choices
+## design choices
 
-### Fonts
+### fonts
 I used [Google Fonts](https://fonts.google.com/ "Google Fonts"). The main text is [Noto Sans](https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap "Noto Sans"). [Poppins](https://fonts.google.com/specimen/Roboto+Slab?query=rob "Poppins") is used for the headers and the navigation bar. 
 
-### Icons
+### icons
 I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra visual cues.
 
-### Colours
-
-~~I have used [Colourmind](https://colormind.io/ "colourmind") to help in the selection of my colour scheme. I selected the initial colour that I wanted the reast of my pallet to fit with and then used the generator to create the pallet, it can be seen [here](wireframes/colour_pallet.JPG "Generated Colour Pallet"). However when I tested the contrast of the colours in [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM"), the contrast ratio from the text colour to the background colour was not good enough and failed tests, they can be seen [here](wireframes/contrast-checker.JPG "Failed tests"). After adjusting the colours manually, I gained a pallet that still gave great impact and had great contrast, these are the results for the contrast checker are [here](wireframes/contrast-checker-adjusted.JPG "Adjusted Colour Pallet").~~
+### colors
 
 
-~~I will explain the uses of the varius colours below, starting from top to bottom.~~
 
-
-![Colour Pallet](wireframes/new-colour-pallet.JPG)
+![color Pallet]()
  
- * #fbfbfb - main background colour
- * #fff - navigation bar colour
+ * #fff - navigation bar color
+ * #fbfbfb - main background color
+ * #000 - font color
  * #3d8bca - input buttons color
- * ~~#92579F - This colour will be used as a backgroung behind any images used.~~
- * ~~#121A18 - This colour will be used as a text colour also the navigation and footer background colour.~~
 
-### Structure
-Website is mobile first with min-size of iPhone 5/SE (320px)for styling purposes. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
+### structure
+Website is responsive with min-size of iPhone 4 (320px)
+The screen size breakpoints are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
 
 | Screen Size | Breakpoint |
 | ----------- | ---------- |
@@ -128,250 +129,158 @@ Website is mobile first with min-size of iPhone 5/SE (320px)for styling purposes
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-# Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+# wireframes
+I use [diagrams.net](https://www.diagrams.net/ "diagrams.net") to develop wireframes for the website. 
+wireframes are designed for large screen only. I used [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/browsers/mobile/ "Mozilla Firefox") and [Chrome](https://www.google.com/intl/en_ie/chrome/ "Chrome") developer tools to scale down and adjust design for smaller screens.
 
-The wireframes are below:
+The wireframe of pages below:
 
+[home page](assets/wireframes/home.png "home wireframe")
 
-### [Desktop Wireframe](wireframes/T4Tri_desktop.png "Desktop wireframe")
-### [Tablet Wireframe](wireframes/T4Tri_tablet.png "Tablet wireframe")
-### [Phone Wireframe](wireframes/T4Tri_phone.png "Phone wireframe")
+[portfolio page](assets/wireframes/portfolio.png "portfolio wireframe")
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-# Features
-
-## Existing Features
-
-### Navigation Bar
-
-The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the club logo which doubles as a link back to the home screen.
-
-+ Desktop (>=992px)
-\
-&nbsp;
-    ![Navigation bar](wireframes/nav-bar-desktop.JPG)
-    -   Spanning the full width of the device and with all links (Home, About, Events, Contact) to navigate visible, this gives ease and clear use to the end user.
-
-    -   In order for the user to visably see which of the links they are hovering over there is a bar below the text.
-
-    ![Navigation bar on hover](wireframes/nav-bar-hover.JPG)
-    \
-    &nbsp;
-    -   For the user to know that a link has been clicked there is also a visual aid of the text changing colour.
-
-    ![Navigation bar on focus](wireframes/nav-bar-focus.JPG)
-    \
-    &nbsp;
-
-
-+ Small devices (<992px)
-\
-&nbsp;
-    - As the navigation bar would be unuseable in the desktop version on smaller devices, it takes on a hamburger style.
-
-    \
-    &nbsp;
-![Nav bar on small devices](wireframes/nav-bar-small.JPG)
-
-    - When pressed, it opens up the main menu with all the links available then.
-
-    \
-    &nbsp;
-![Nav bar on small devices expanded](wireframes/nav-bar-small-expanded.JPG)
+[about page](assets/wireframes/about.png "about wireframe")
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-### Landing Page
-
-+ The landing page image
-    - The image gives the user instant knowledge of what is involved in the club, and with added animation draws their eye to the site.
-    - The text gives instant information to the user on what the club is. With the added animation of fading in slightly behind the image, it makes the user keep interest. 
-    \
-    &nbsp;
-
-    ![Landing Page](wireframes/landing-page.JPG)
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
+# features
 
-### Welcome Section
+## existing features
 
-+ The welcome section gives a brief introduction to the user on what T4Tri is and who is welcome.
-    \
-    &nbsp;
+### navigation bar
 
-    ![Welcome Section](wireframes/welcome.JPG)
-    \
-    &nbsp;
+Responsive navigation bar to allows for various screen sizes.
+Includes **active link** for the **phone number** and **emails address**.
+There is a visual cue to inform user on which section or page is currently visible. 
 
-+ To speed up user interation, there is a *'Join Us'* button that directly links to the contact form. This button has a hover effect on it in the form of an animation to allow the user to know that it is something to be pressed.
-    \
-    &nbsp;
+On smaller devices (<992px), navigation bar changes to "hamburger" style. 
 
-    ![Welcome Button](wireframes/welcome-button.JPG)
+### home page
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+* home page image
+    - the image spans almost over the whole height of the screen and gives the user clear message about the intent of the website
+    - the message over the image invites visitor to think of it as a work of art   
 
-### About Section
+    ![home page](assets/wireframes/index.jpg)
 
-+ The about section gives a brief, and attemped humerous, description of the diceplins of triathlon with the adition of a character showing the user what is involved, even if they do not want to read the descriptions. It is also responsive to suit the different screen sizes.
-    \
-    &nbsp;
+### ethos section
 
-    *Desktop*
+* the ethos section gives a brief introduction and invitation to explore further.
 
-    ![About Section on Desktop](wireframes/about.JPG)
-    \
-    &nbsp;
+### portfolio section and page
 
+* the portfolio section gives quick overview of the recent or best projects chosen by the owner
+* it has a button that allows to explore more photos on the portfolio page
 
-    *Laptop*
-    
-    ![About Section on Tablet](wireframes/about-laptop.JPG)
-    \
-    &nbsp;
+![portfolio section](wireframes/portfolio-section.jpg)
+![portfolio page](wireframes/portfolio-page.jpg)
 
-    
-    *Phone and Tablet*
-    
-    ![About Section on Phone](wireframes/about-phone.JPG)
+### testimonials section
+
+* the testimonial section helps to build trust, reputation, relationship and assure the potential visitors that the qubartstuidos.com is a reliable supplier
+
+### about section
+
+* the about section gives an information about the owner of the company, it's passion and a personal touch. Visitor can "meet" and get to "know" the owner.
+
+![about page](assets/wireframes/about.jpg)
+   
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-### Events Section
+### contact section
 
-+ This is where the most upcoming club events are shown. It includes an icon to quickly show if it is a social or a race event to the user. Also, on the larger screen sizes it includes some images to break up the screen.
-    \
-    &nbsp;
-
-    *Large device*
-
-    ![Events Section on Large Display](wireframes/events-large-device.JPG)
-    \
-    &nbsp;
-
-    *Small device*
-
-    ![Events Section on Small Display](wireframes/events-small-device.JPG)
+* the contact section provides basic information to help visitor to get in touch with qubartstudios.com 
+   
+* name, email address and the message fields are required. Email is also validated
+* all fields are labelled and include words "required" or "optional" for the accessibility purposes
+* additional visual cue is provided when hover over or select any of the fields
+* instant feedback is provided upon form submission
 
     \
     &nbsp;
-+ The date and location are also shown with the added function of a link to the directions of the event via Google Maps. There is also a label added, and animation for extra information to the user that it is a link to follow.
     \
-    &nbsp;
+    ![contact section](assets/wireframes/contact.jpg)
 
-    ![Events Section Directions](wireframes/events-directions.JPG)
-
+    ![contact section - form submitted](assets/wireframes/form-submitted.jpg)
+        
 \
 &nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-### Contact Section
-
-+ The contact section allows the user to quickly send a message to the T4Tri club. it also has a map of the location of the club base.
-    \
-    &nbsp;
-
-    ![Contact Section](wireframes/contact.JPG)
-    \
-    &nbsp;
-
-+ The text fields are all required fields and will not alow the user to submit until they are completed, this includes a validation on the email to ensure it is in a valid format. There is also a hover effect on the submit button to give the user feedback that it is and active button.
-    \
-    &nbsp;
-
-    ![Contact Section](wireframes/contact-email.JPG)
-    \
-    &nbsp;
-
-+ On submission of the form, the user is bought to a page showing that their details were received.
-    \
-    &nbsp;
-
-    ![Contact Section](wireframes/contact-received.JPG)
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
 ### Footer
 
-+ The footer contains the social media links related to T4Tri and the copyright text. These social links all open in a new tab for ease of use to the user and also, so the user has an ability to easily come back to T4Tri's site.
+* the footer contains the social media links (open in new tab)
+* social media links have the hover over effect which serves as an additional visual cue
+* site map
+* the copyright text
+* logo - acting as home page (back to top)
+* information about the designer
+
+    &nbsp;
+
+    ![footer](wireframes/footer.jpg "footer wireframe")
     \
     &nbsp;
 
-    ![Contact Section](wireframes/footer.JPG)
-    \
-    &nbsp;
 
-+ There is also a hover effect over the links, again to improve user experiance.
-    \
-    &nbsp;
+## future developments
 
-    ![Contact Section](wireframes/footer-hover.JPG)
-    \
-    &nbsp;
-
-## Features to be Implemented
-
-+ Contact form to send message to T4Tri instead of leading to a dummy page.
-+ Links to club sponsors websites.
-+ Add a shop for club clothing to be purchased.
-+ Add a library of structured workouts for all activities.
+* package pricing page
+* video content gallery
+* expand on portfolio galleries 
+* additional services:
+    * anniversary photography
+    * engagement photography
+    * family photography
+    * maternity and new born photography
+* e-commerce
+    * albums
+    * canvases
+    * large format prints
+    * POS products
+* blog
+    * planning tips
+    * recent weddings
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-# Technologies used
+# technologies used
 
-## Languages
+## languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-## Libraries & Framework
+## libraries and frameworks
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-## Tools
+## tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Github](https://www.github.com/ "Github")
-* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") ****
+* [diagrams.net](https://diagrams.net/ "diagrams.net")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [Bootstrap](https://getbootstrap.com "Bootstrap") ****
+* [Bootstrap](https://getbootstrap.com "Bootstrap")
 
-* [Colourmind](https://colormind.io/ "colourmind") ****
+* [colormind](https://colormind.io/ "colormind") ****
 
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
@@ -379,43 +288,44 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") ****
 * [TinyPNG](https://tinypng.com/ "TinyPNG")
 * [Photoshop](https://www.adobe.com/ie/products/photoshop.html "Adobe Photoshop")
+* [qubartstudios.com](https://qubartstudios.com "qubartstudios.com")
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-# Testing
+# testing
 
-I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact via the contact form or social media simply. It The content is simple and to the point and the site is not overcrowded as to put the user off.
+~~I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and also make contact via the contact form or social media simply. It The content is simple and to the point and the site is not overcrowded as to put the user off.~~
 \
 &nbsp;
 
-I have encountered several issues during testing. 
- + I initially decided to create the site with a minimum width of 992px as my largest styling, however the site just did not look right so added an x-large screen size.
+~~I have encountered several issues during testing.~~
+ * ~~I initially decided to create the site with a minimum width of 992px as my largest styling, however the site just did not look right so added an x-large screen size.~~
 
- + In my wireframes, I had designed to only have a 'Join Us' button on the larger screen sizes. While I was developing the site, this did not make sence. There was such a long scroll with it being a one-page site, I felt I needed to speed up the movement for someone who was instantly interested so included it on all screen sizes.
+ * ~~In my wireframes, I had designed to only have a 'Join Us' button on the larger screen sizes. While I was developing the site, this did not make sense. There was such a long scroll with it being a one-page site, I felt I needed to speed up the movement for someone who was instantly interested so included it on all screen sizes.~~
 
- + On actual smaller devices, instead of on Chrome Developer, the main navigation menu did not show the 'Contact' link. I simply changed the styling of the links and the changed the ul to flex-start and all is now clearly visable.
+ * ~~On actual smaller devices, instead of on Chrome Developer, the main navigation menu did not show the 'Contact' link. I simply changed the styling of the links and the changed the ul to flex-start and all is now clearly visible.~~
 
- + I was having issues with the navigation bar scrolling about 15px when I scrolled down on smaller devices whilst working on Chrome Developer. I lost a lot of time trying to figure out the issue, but when I tried the site on an acual device, the navigation bar stayed fixed as the code dictated. This was a bug in Chrome Developer and not with my site.
+ * ~~I was having issues with the navigation bar scrolling about 15px when I scrolled down on smaller devices whilst working on Chrome Developer. I lost a lot of time trying to figure out the issue, but when I tried the site on an acual device, the navigation bar stayed fixed as the code dictated. This was a bug in Chrome Developer and not with my site.~~
 
- + The main navigation on smaller devices was initially set to 90vh, however on testing on a physical device, the user could see the site scrolling at the bottom if they were to slide up or down. This looked very poor and clumsy on the eye, so I adjusted it to 100vh to cover it up.
+ * ~~The main navigation on smaller devices was initially set to 90vh, however on testing on a physical device, the user could see the site scrolling at the bottom if they were to slide up or down. This looked very poor and clumsy on the eye, so I adjusted it to 100vh to cover it up.~~
 
- + I found that I was repeating alot of code in my style.css file in order to center items. I created a class to do this and then applied it whee needed.
+ * ~~I found that I was repeating a lot of code in my style.css file in order to center items. I created a class to do this and then applied it whee needed.~~
 
- + All my buttons were styled completly differently. I added an animation to all buttons so there is a continuity between them all.
+ * ~~All my buttons were styled completely differently. I added an animation to all buttons so there is a continuity between them all.~~
 
- + When I was validating HTML code, I had one error showing. This was in the contact form where I had a method of '#'. I was under the understanding that POST method should have been used, but when I did, it caused an error instead of going to my contact.html page. After a while I tried using GET and it worked solving my validation problem. The results of my validation for HTML and CSS are below.
+ * ~~When I was validating HTML code, I had one error showing. This was in the contact form where I had a method of '#'. I was under the understanding that POST method should have been used, but when I did, it caused an error instead of going to my contact.html page. After a while I tried using GET and it worked solving my validation problem. The results of my validation for HTML and CSS are below.~~
 
-    - HTML (index.html) validator [results](wireframes/html-validate.JPG "W3C HTML")
-    - HTML (contact.html) validator [results](wireframes/html-contact-validate.JPG "W3C HTML")
-    - CSS validator [results](wireframes/css-validate.JPG "W3C CSS")
+    - HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
+    - HTML (contact.html) validator [results](wireframes/html-contact-validate.jpg "W3C HTML")
+    - CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
 \
 &nbsp;
 
- + On testing on a physical mobile device, I thought that the google search bar looked odd, being white and my header a dark colour. For user experiance and to make it look cleaner and more fluid, I changed the colour to match using the following code.
+ ~~On testing on a physical mobile device, I thought that the google search bar looked odd, being white and my header a dark color. For user experiance and to make it look cleaner and more fluid, I changed the color to match using the following code.~~
 
  ```
 
@@ -424,55 +334,55 @@ I have encountered several issues during testing.
 
  ```
 
- + When going through my UX section, to ensure that all my goals were met for the project, I noticed that I had missed one, 'As a user, I want to know that the club is well established'. I adjusted the text in the welcome section to suit.
+ * ~~When going through my UX section, to ensure that all my goals were met for the project, I noticed that I had missed one, 'As a user, I want to know that the club is well established'. I adjusted the text in the welcome section to suit.~~
 \
 &nbsp;
 
-## Unfixed Bugs
+## unfixed bugs
 
-My learning has limited my use of the hamburger for smaller devices. It works nicely to open the menu up, but a tap of the hamburger again should close the menu down again. It does not do this, and the link has to be selected to enable the user to exit out of it. From my research it seems that all the streamline methods are using JavaScript and I am yet to learn this.
+~~My learning has limited my use of the hamburger for smaller devices. It works nicely to open the menu up, but a tap of the hamburger again should close the menu down again. It does not do this, and the link has to be selected to enable the user to exit out of it. From my research it seems that all the streamline methods are using JavaScript and I am yet to learn this.~~
 
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-# Deployment
-
-Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
-
-+ Navigate to the repository on github and click 'Settings'.
-+ Then select 'Pages' on the side navigation.
-+ Select the 'None' dropdown, and then click 'master'.
-+ Click on the 'Save' button.
-+ Now the website is now live on https://sam-timmins.github.io/T4Tri-triathlon-club/
-+ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
-# Credits
+# deployment
 
-For code insperation, help and advice,
+~~Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.~~
+
+* ~~Navigate to the repository on github and click 'Settings'.~~
+* ~~Then select 'Pages' on the side navigation.~~
+* ~~Select the 'None' dropdown, and then click 'master'.~~
+* ~~Click on the 'Save' button.~~
+* Now the website is now live on 
+* ~~If any changes are required, they can be done, committed and pushed to GitHub and the changes will be updated.~~
+
+\
+&nbsp;
+[back to top](#table-of-contents)
+\
+&nbsp;
+
+# credits
+
+for code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 
 
 
-* [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 "Marc Caron")
+* ~~[Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 "Marc Caron")~~ ***
 \
 &nbsp;
 
-For readme template and structure,
+for readme template, structure and some ideas from them
 * [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club)
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[back to top](#table-of-contents)
 \
 &nbsp;
 
