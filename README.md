@@ -27,7 +27,7 @@ The main goal of the project is to give a modern look to the old website and lea
         * [structure](#structure)
     * [wireframes](#wireframes)
     * [features](#features)
-        * [existing features](#existing-features)
+        * [existing features](#existing-features)s
             * [navigation bar](#navigation-bar)
             * [home page](#home-page "home page")
             * [ethos section](#ethos-section)
