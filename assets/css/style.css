@@ -4,3 +4,7 @@
     border: none;
 }
 
+#menu a {
+    text-decoration: none;
+}
+

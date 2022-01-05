@@ -3,7 +3,7 @@
 # qubartstudios.com 
 
 # goal of this project
-Welcome to Qubart Studios. This is a professional photographer's website. The domain of qubartstudios.com is wedding photography. 
+Welcome to Qubart Studios. This is a professional photographer's website. The domain of qubartstudios.com is wedding photography.
 
 The site targets potential customers who are planning their weddings. It gives an overview of previous artwork and backs it up with strong customer testimonials.
 
@@ -13,29 +13,29 @@ The main goal of the project is to give a modern look to the old website and lea
 
 # table of contents
 
-* [UX](#ux "UX")
+* [ux](#ux "ux")
     * [user goals](#user-goals "user goals")
     * [user stories](#user-stories "user stories")
     * [site owner goals](#site-owner-goals "site owner goals")
-    * [user requirements and expectations](#user-requirements-and-expectations)
-         * [requirements](#requirements)
-         * [expectations](#expectations)
-     * [design choices](#design-choices)
-        * [fonts](#fonts)
-        * [icons](#icons)
-        * [colors](#colors)
-        * [structure](#structure)
-    * [wireframes](#wireframes)
-    * [features](#features)
-        * [existing features](#existing-features)s
-            * [navigation bar](#navigation-bar)
+    * [user requirements and expectations](#user-requirements-and-expectations "user requirements and expectations")
+         * [requirements](#requirements "requirements")
+         * [expectations](#expectations "expectations")
+     * [design choices](#design-choices "design choices")
+        * [fonts](#fonts "fonts")
+        * [icons](#icons "icons")
+        * [colors](#colors "colors")
+        * [structure](#structure "structure")
+    * [wireframes](#wireframes "wireframes")
+    * [features](#features "features")
+        * [existing features](#existing-features "existing features")
+            * [navigation bar](#navigation-bar "navigation bar")
             * [home page](#home-page "home page")
-            * [ethos section](#ethos-section)
-            * [portfolio section and page](#portfolio-section-and-page)
-            * [about section](#about-section)
+            * [ethos section](#ethos-section "ethos section")
+            * [portfolio section and page](#portfolio-section-and-page "portfolio section and page")
+            * [about section](#about-section "about section")
             
-            * [contact section](#contact-section)
-            * [footer](#footer)
+            * [contact section](#contact-section "contact section")
+            * [footer](#footer "footer")
         * [future developments](#future-developments "future developments")
     * [technologies used](#technologies-used "technologies used")
         * [languages](#languages "languages")
@@ -46,7 +46,7 @@ The main goal of the project is to give a modern look to the old website and lea
     * [deployment](#deployment "deployment")
     * [credits](#credits "credits")
     
-# UX
+# ux
 
 ## user goals
 * visually appealing, including images
@@ -180,8 +180,8 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * the portfolio section gives quick overview of the recent or best projects chosen by the owner
 * it has a button that allows to explore more photos on the portfolio page
 
-![portfolio section](wireframes/portfolio-section.jpg)
-![portfolio page](wireframes/portfolio-page.jpg)
+![portfolio section](wireframes/portfolio-section.jpg "portfolio section")
+![portfolio page](wireframes/portfolio-page.jpg "portfolio page")
 
 ### testimonials section
 
@@ -191,7 +191,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
 * the about section gives an information about the owner of the company, it's passion and a personal touch. Visitor can "meet" and get to "know" the owner.
 
-![about page](assets/wireframes/about.jpg)
+![about page](assets/wireframes/about.jpg "about page")
    
 
 \
@@ -212,9 +212,9 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
     \
     &nbsp;
     \
-    ![contact section](assets/wireframes/contact.jpg)
+    ![contact section](assets/wireframes/contact.jpg "contact section")
 
-    ![contact section - form submitted](assets/wireframes/form-submitted.jpg)
+    ![contact section - form submitted](assets/wireframes/form-submitted.jpg "submitted form")
         
 \
 &nbsp;
@@ -256,7 +256,6 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * blog
     * planning tips
     * recent weddings
-
 \
 &nbsp;
 [back to top](#table-of-contents)
@@ -378,7 +377,7 @@ for code inspiration, help and advice,
 &nbsp;
 
 for readme template, structure and some ideas from them
-* [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club)
+* [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club "Sam Timmins")
 
 \
 &nbsp;
