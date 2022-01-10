@@ -20,6 +20,12 @@ html, body {
     box-sizing: border-box;
 }
 
+.section-header {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 /* ...............navbar............... */
 
 /* destkop size............... */
@@ -171,6 +177,7 @@ a .scroll-down:hover {
     height: 500px;
     text-align: center;
     background-color: #f1f1f1;
+    /* padding: 60px 0; */
 }
 
 .ethos p {
@@ -230,19 +237,24 @@ a .scroll-down:hover {
     background-color: #f1f1f1;   
 }
 
+.testimonials-heading {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding-top: 60px;
+}
+
 .testimonials-grid {
     max-width: 1200px;
     display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template: 0.5fr 9.5frs / 1fr 1fr 1fr;
     gap: 10px 10px;
     margin: auto;
 }
 
 .testimonials-content {
-    box-sizing: border-box;
     max-width: 368px;
     text-align: left;
-    padding: 120px 0;
+    padding: 60px 0 30px 0;
 }
 
 .testimonials-text p {
@@ -256,3 +268,4 @@ a .scroll-down:hover {
     text-align: right;
     text-transform: uppercase;
 }
+
