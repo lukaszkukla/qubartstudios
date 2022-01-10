@@ -192,10 +192,19 @@ a .scroll-down:hover {
 #portfolio {
     max-width: 1200px;
     display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-template: 0.5fr 9.5frs / 1fr 1fr 1fr;
     gap: 10px 10px;
     margin: 0 auto;
-    padding: 60px 0;
+}
+
+.portfolio-heading {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding-top: 90px;
+}
+
+.portfolio-content {
+    padding: 30px 0 60px 0;
 }
 
 .portfolio-image img {
