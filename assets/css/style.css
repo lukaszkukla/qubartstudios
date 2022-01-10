@@ -188,6 +188,7 @@ a .scroll-down:hover {
     grid-template: 1fr / 1fr 1fr 1fr;
     gap: 10px 10px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 .portfolio-image img {
