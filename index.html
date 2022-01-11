@@ -159,8 +159,30 @@
                 </div>
             </div>
         </section>
-        <section>
-            contact form
+        <section id="contact">
+            <form method="post" action="https://formdump.codeinstitute.net/" class="contact-form">
+                <h2>let's talk... <i class="fas fa-heartbeat"></i></h2>
+    
+                <label for="fname">name (required)</label>
+                <input type="text" name="name" id="name" class="text-input" placeholder="enter your name" required>                               
+                
+                <label for="email">email (required)</label>
+                <input type="email" name="email_address" id="email" class="text-input" placeholder="enter your email address" required>
+
+                <label for="phone">phone number (optional)</label>
+                <input type="phone" name="phone-number" id="phone" class="text-input" placeholder="enter your phone number">
+    
+                <label for="photo">wedding photographer</label>
+                <input type="radio" name="wedding_package" id="photgraphy" value="photography" required>
+                
+                <label for="trail">wedding videographer</label>
+                <input type="radio" name="wedding_package" id="video" value="video">
+    
+                <label for="road">both</label>
+                <input type="radio" name="wedding_package" id="both" value="both">
+                
+                <input type="submit" value="let's talk" class="contact-button">
+            </form>
         </section>
     </main>
 
