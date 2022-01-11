@@ -160,31 +160,53 @@
             </div>
         </section>
         <section id="contact">
+            <div class="contact-heading">
+                <h2>let's talk...</h2>
+                <p>We are honored that you are interested in our wedding photography. Please fill out the form so
+                    that we can give you information tailored to your neeeds.</p>
+            </div>
+            <div>
+                <h3>contact</h3>
+                <p>qubartstudios.com</p>
+                <a href="tel:+353877405135"><i class="fas fa-phone-alt"></i> +353 87 740 5135</a>
+                <a href="mailto:qubartstudios@gmail.com"><i class="fas fa-envelope"></i>qubartstudios@gmail.com</a>
+            </div>
             <form method="post" action="https://formdump.codeinstitute.net/" class="contact-form">
-                <h2>let's talk... <i class="fas fa-heartbeat"></i></h2>
-    
                 <label for="fname">name (required)</label>
-                <input type="text" name="name" id="name" class="text-input" placeholder="enter your name" required>                               
-                
+                <input type="text" name="name" id="name" class="contact-data" placeholder="enter your name" required>
+
                 <label for="email">email (required)</label>
-                <input type="email" name="email_address" id="email" class="text-input" placeholder="enter your email address" required>
+                <input type="email" name="email_address" id="email" class="contact-data"
+                    placeholder="enter your email address" required>
 
                 <label for="phone">phone number (optional)</label>
-                <input type="phone" name="phone-number" id="phone" class="text-input" placeholder="enter your phone number">
-    
-                <label for="photo">wedding photographer</label>
-                <input type="radio" name="wedding_package" id="photgraphy" value="photography" required>
-                
-                <label for="trail">wedding videographer</label>
-                <input type="radio" name="wedding_package" id="video" value="video">
-    
-                <label for="road">both</label>
-                <input type="radio" name="wedding_package" id="both" value="both">
-                
+                <input type="phone" name="phone-number" id="phone" class="contact-data"
+                    placeholder="enter your phone number">
+
+                <span class="wedding-package">                    
+                    <input type="radio" name="wedding_package" id="photo" value="photo" required>
+                    <label for="photo">photographer</label>
+                </span>
+
+                <span class="wedding-package">                    
+                    <input type="radio" name="wedding_package" id="video" value="video">
+                    <label for="video">videographer</label>
+                </span>
+
+                <span class="wedding-package">                    
+                    <input type="radio" name="wedding_package" id="both" value="both">
+                    <label for="both">both</label>
+                </span>
+
+                <label for="message">enter your message (required)</label>
+                <textarea name="message" id="message" rows="5" cols="33" placeholder="enter your message..."
+                    class="contact-message" required></textarea>
+
                 <input type="submit" value="let's talk" class="contact-button">
             </form>
         </section>
     </main>
+    <div class="footer"></div>
 
     <!--  <footer>
         <ul>

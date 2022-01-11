@@ -15,7 +15,8 @@
     margin: auto;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     box-sizing: border-box;
 }
@@ -84,7 +85,7 @@ html, body {
     overflow: hidden;
 }
 
-.hero-image {    
+.hero-image {
     height: 800px;
     width: 100%;
     background: url('../images/couple-holding-hands-pexels-jeremy-wong-1043902.jpg') no-repeat center center;
@@ -235,13 +236,15 @@ a .scroll-down:hover {
     object-fit: cover;
 }
 
-.portfolio-date, .portfolio-title, .portfolio-venue {
+.portfolio-date,
+.portfolio-title,
+.portfolio-venue {
     max-width: 386px;
     text-align: center;
 }
 
 .portfolio-date {
-    font-style: italic;    
+    font-style: italic;
     font-size: 0.9rem;
     font-weight: 400;
     padding: 10px 0;
@@ -263,7 +266,7 @@ a .scroll-down:hover {
 #testimonials {
     width: 100%;
     height: 600px;
-    background-color: #f1f1f1;   
+    background-color: #f1f1f1;
 }
 
 .testimonials-heading {
@@ -298,3 +301,68 @@ a .scroll-down:hover {
     text-transform: uppercase;
 }
 
+/* ...............contact............... */
+
+#contact {
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 1px 1px;
+
+    border: 1px solid black;
+}
+
+.contact-heading {
+    grid-area: 1/1/2/2;
+    padding: 90px 30px 0 0;
+}
+
+.contact-form {
+    padding-top: 125px;
+    grid-area: 1/2/3/3;
+}
+
+.contact-data,
+.contact-message {
+    background: transparent;
+    width: 80%;
+    margin: 5px 0 20px;
+    border: 1px solid #4f4f4f;
+    border-radius: 2px;
+    display: block;
+}
+
+.contact-data {
+    height: 25px;
+}
+
+.wedding-package {
+    display: block;
+}
+
+.wedding-package input[type="radio"] {
+    vertical-align: middle;
+}
+
+.contact-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.contact-button:hover {
+    background-color: #4f4f4f;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:active {
+    background-color: #118102;
+    transition: background-color 0.3s ease-in-out;
+}
