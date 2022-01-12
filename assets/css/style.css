@@ -1,25 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&display=swap');
 
+:root {
+    --grey: #4f4f4f;
+    --light-grey: #f1f1f1;
+    --light-grey-transparent: #f1f1f170;
+}
+
+
 * {
     margin: 0;
     padding: 0;
-    border: none;
-    font-family: Poppins, sans-serif;
-    text-decoration: none;
-    color: #4f4f4f;
-}
-
-.wrapper {
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
+    border: none; 
+    box-sizing: border-box;
 }
 
 html,
 body {
     height: 100%;
-    box-sizing: border-box;
+    font-size: 62.5%;        
 }
+
+body {
+    font-size: 1.6rem;
+    color: var(--grey);
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.wrapper {
+    max-width: 120rem;
+    width: 90%;
+    margin: auto;
+}
+
+
 
 .section-header {
     font-size: 2rem;
@@ -27,22 +45,22 @@ body {
     letter-spacing: 2px;
 }
 
-/* ...............navbar............... */
+/* navbar */
 
-/* destkop size............... */
+/* destkop size */
 
 .navbar {
     width: 100%;
-    height: 60px;
-    background: #f1f1f1;
+    height: 6rem;
+    background: var(--light-grey);
     position: fixed;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
 
 .navbar-wrapper {
     display: flex;
-    height: 60px;
+    height: 6rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -72,12 +90,12 @@ body {
 
 .main-wrapper {
     width: 100%;
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
-/* ...............hero............... */
+/* hero */
 
-/* hero image............... */
+/* hero image */
 
 .hero {
     width: 100%;
@@ -86,7 +104,7 @@ body {
 }
 
 .hero-image {
-    height: 800px;
+    height: 80rem;
     width: 100%;
     background: url('../images/couple-holding-hands-pexels-jeremy-wong-1043902.jpg') no-repeat center center;
 
@@ -108,7 +126,7 @@ body {
     }
 }
 
-/* hero text............... */
+/* hero text */
 
 .hero-text {
     font-size: 1.5rem;
@@ -116,31 +134,25 @@ body {
     text-transform: lowercase;
     text-align: left;
     letter-spacing: 2px;
-
-    width: 400px;
-    height: 200px;
-
-    padding: 80px 20px 0 20px;
-
-    background-color: #f1f1f170;
-
-    bottom: 120px;
-    right: 100px;
-
+    width: 40rem;
+    height: 20rem;
+    padding: 8rem 2rem 0 2rem;
+    background-color: var(--light-grey-transparent);
+    bottom: 12rem;
+    right: 10rem;
     position: absolute;
-
 }
 
-/* hero scroll down button............... */
+/* hero scroll down button */
 
 /* scrolls to top of the next section */
 
 .scroll-down {
-    height: 50px;
-    width: 150px;
+    height: 5rem;
+    width: 15rem;
     position: absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 4rem;
     cursor: pointer;
     transition: transform 0.3s ease-out;
 }
@@ -148,11 +160,11 @@ body {
 .scroll-down p {
     font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 a .scroll-down:hover {
-    transform: translateY(8px);
+    transform: translateY(0.8rem);
 }
 
 .scroll-down::before,
@@ -161,32 +173,32 @@ a .scroll-down:hover {
     position: absolute;
     top: 40%;
     right: 50%;
-    border-right: 2px solid #4f4f4f;
-    border-bottom: 2px solid #4f4f4f;
-    height: 10px;
-    width: 10px;
+    border-right: 2px solid var(--grey);
+    border-bottom: 2px solid var(--grey);
+    height: 1rem;
+    width: 1rem;
     transform: translate(50%, 50%) rotate(45deg);
 }
 
-/* ...............ethos............... */
+/* ethos */
 
 #ethos {
     width: 100%;
-    height: 600px;
-    background-color: #f1f1f1;
-    padding-bottom: 60px;
+    height: 60rem;
+    background-color: var(--light-grey);
+    padding-bottom: 6rem;
 }
 
 .ethos-heading {
-    padding-top: 90px;
+    padding-top: 9rem;
     text-align: left;
 }
 
 .ethos-grid {
-    max-width: 1200px;
+    max-width: 120rem;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr / 1fr;
-    gap: 10px 10px;
+    gap: 1rem 1rem;
     margin: auto;
 }
 
@@ -198,39 +210,39 @@ a .scroll-down:hover {
 
 .ethos-content {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 90rem;
     text-align: center;
     font-size: 1.3rem;
 }
 
 .ethos-content p {
-    padding: 30px 0 30px 0;
+    padding: 3rem 0 3rem 0;
 }
 
 
-/* ...............portfolio (index.html)............... */
+/* portfolio (index.html) */
 
 #portfolio {
-    max-width: 1200px;
+    max-width: 120rem;
     display: grid;
     grid-template: 0.5fr / 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 1rem 1rem;
     margin: 0 auto;
 }
 
 .portfolio-heading {
     grid-column: 1 / 4;
     grid-row: 1;
-    padding-top: 90px;
+    padding-top: 9rem;
 }
 
 .portfolio-content {
-    padding: 30px 0 60px 0;
+    padding: 3rem 0 6rem 0;
 }
 
 .portfolio-image img {
     width: 100%;
-    max-width: 386px;
+    max-width: 38.6rem;
     height: 100%;
     display: block;
     object-fit: cover;
@@ -239,7 +251,7 @@ a .scroll-down:hover {
 .portfolio-date,
 .portfolio-title,
 .portfolio-venue {
-    max-width: 386px;
+    max-width: 38.6rem;
     text-align: center;
 }
 
@@ -247,7 +259,7 @@ a .scroll-down:hover {
     font-style: italic;
     font-size: 0.9rem;
     font-weight: 400;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 .portfolio-title {
@@ -258,35 +270,35 @@ a .scroll-down:hover {
 .portfolio-venue {
     font-style: italic;
     font-size: 1rem;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
-/* ...............testimonials............... */
+/* testimonials */
 
 #testimonials {
     width: 100%;
-    height: 600px;
-    background-color: #f1f1f1;
+    height: 60rem;
+    background-color: var(--light-grey);
 }
 
 .testimonials-heading {
     grid-column: 1 / 4;
     grid-row: 1;
-    padding-top: 90px;
+    padding-top: 9rem;
 }
 
 .testimonials-grid {
-    max-width: 1200px;
+    max-width: 120rem;
     display: grid;
     grid-template: 0.5fr / 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 1rem 1rem;
     margin: auto;
 }
 
 .testimonials-content {
-    max-width: 368px;
+    max-width: 36.8rem;
     text-align: left;
-    padding: 30px 0 30px 0;
+    padding: 3rem 0 3rem 0;
 }
 
 .testimonials-text p {
@@ -296,40 +308,40 @@ a .scroll-down:hover {
 
 .testimonials-title {
     font-size: 1.1rem;
-    padding: 10px 0;
+    padding: 1rem 0;
     text-align: right;
     text-transform: uppercase;
 }
 
-/* ...............contact............... */
+/* contact */
 
 #contact {
-    max-width: 1200px;
-    height: 800px;
+    max-width: 120rem;
+    height: 80rem;
     margin: 0 auto;
     display: grid;
     grid-template: 1fr 2fr / 1fr 1fr;
     gap: 1px 1px;
 }
 
-/* contact header............... */
+/* contact header */
 
 .contact-heading {
     grid-area: 1/1/2/2;
-    padding: 90px 30px 0 0;
+    padding: 9rem 3rem 0 0;
 }
 
-/* contact details............... */
+/* contact details */
 
 .contact-details li {
     list-style: none;
-    line-height: 35px;
+    line-height: 3.5rem;
 }
 
-/* contact form............... */
+/* contact form */
 
 .contact-form {
-    padding-top: 125px;
+    padding-top: 12.5rem;
     grid-area: 1/2/3/3;
 }
 
@@ -337,14 +349,14 @@ a .scroll-down:hover {
 .contact-message {
     background: transparent;
     width: 80%;
-    margin: 5px 0 20px;
-    border: 1px solid #4f4f4f;
+    margin: 5px 0 2rem;
+    border: 1px solid var(--grey);
     border-radius: 2px;
     display: block;
 }
 
 .contact-data {
-    height: 25px;
+    height: 2.5rem;
 }
 
 .wedding-package {
@@ -356,9 +368,9 @@ a .scroll-down:hover {
 }
 
 .contact-button {
-    margin-top: 20px;
+    margin-top: 2rem;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 1.5rem 3.2rem;
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
@@ -367,7 +379,7 @@ a .scroll-down:hover {
 }
 
 .contact-button:hover {
-    background-color: #4f4f4f;
+    background-color: var(--grey);
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -376,5 +388,13 @@ a .scroll-down:hover {
     transition: background-color 0.3s ease-in-out;
 }
 
-/* contact details............... */
+#footer {
+    width: 100%;
+    height: 60rem;
+    background-color: var(--grey);
+}
+
+#footer li {
+    color: var(--light-grey);
+}
 
