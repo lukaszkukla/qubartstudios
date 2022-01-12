@@ -308,16 +308,25 @@ a .scroll-down:hover {
     height: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template: 1fr 2fr / 1fr 1fr;
     gap: 1px 1px;
-
-    border: 1px solid black;
 }
+
+/* contact header............... */
 
 .contact-heading {
     grid-area: 1/1/2/2;
     padding: 90px 30px 0 0;
 }
+
+/* contact details............... */
+
+.contact-details li {
+    list-style: none;
+    line-height: 35px;
+}
+
+/* contact form............... */
 
 .contact-form {
     padding-top: 125px;
@@ -366,3 +375,6 @@ a .scroll-down:hover {
     background-color: #118102;
     transition: background-color 0.3s ease-in-out;
 }
+
+/* contact details............... */
+
