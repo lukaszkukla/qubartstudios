@@ -251,6 +251,7 @@ a .scroll-down:hover {
 .portfolio-venue {
     max-width: 38.6rem;
     text-align: center;
+    list-style: none;
 }
 
 .portfolio-date {
