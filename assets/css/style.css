@@ -410,6 +410,12 @@ a .scroll-down:hover {
     padding-top: 12rem;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
 .social-media-links {
     display: inline-block;   
     padding: 1.6rem;
