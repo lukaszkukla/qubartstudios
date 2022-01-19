@@ -5,6 +5,7 @@
     --light-grey: #f1f1f1;
     --light-grey-transparent: #f1f1f170;
     --white: #fff;
+    --black: #000;
 }
 
 * {
@@ -29,6 +30,13 @@ body {
 a {
     text-decoration: none;
     color: var(--grey);
+}
+
+.horizontal-divider {
+    content: "";	
+	width: 95%;
+	height: 1px;
+	background: linear-gradient(to right, transparent, var(--grey), transparent);
 }
 
 .wrapper {
@@ -181,7 +189,7 @@ a .scroll-down:hover {
 
 #ethos {
     width: 100%;
-    height: 60rem;
+    height: 65rem;
     background-color: var(--light-grey);
     padding-bottom: 6rem;
 }
@@ -210,6 +218,10 @@ a .scroll-down:hover {
     max-width: 90rem;
     text-align: center;
     font-size: 2rem;
+}
+
+.ethos-content-bottom {
+    padding-bottom: 3rem;
 }
 
 .ethos-content p {
