@@ -275,7 +275,6 @@ a .scroll-down:hover {
 #testimonials {
     width: 100%;
     height: 60rem;
-    background-color: var(--light-grey);
 }
 
 .testimonials-heading {
@@ -310,7 +309,13 @@ a .scroll-down:hover {
 }
 
 /* about */
+
 #about {
+    width: 100%;
+    background: var(--light-grey);
+}
+
+.about-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;  
@@ -330,16 +335,24 @@ a .scroll-down:hover {
     grid-column: 1 / 3;
     text-align: left;
     font-weight: 700;
+    font-size: 3.2rem;
+    padding: 3rem 0;
 }
 
 .about-moments-image {
     grid-column: 1 / 3;
     width: 100%;
+    padding-bottom: 6rem;
 }
 
 /* contact */
 
 #contact {
+    width: 100%;
+    background-color: var(--light-grey);
+}
+
+.contact-grid {
     max-width: 120rem;
     height: 80rem;
     margin: 0 auto;
@@ -377,6 +390,10 @@ a .scroll-down:hover {
     border: 1px solid var(--grey);
     border-radius: 2px;
     display: block;
+}
+
+.contact-message {
+    padding: 1rem;
 }
 
 .contact-data {
