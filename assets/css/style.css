@@ -588,7 +588,13 @@ a {
 
 /* medium screens */
 
-@media screen and (min-width: 768px) {     
+@media screen and (min-width: 768px) {
+    
+    /* ethos */
+    .ethos-heading {
+        padding-top: 9rem;
+    }
+
 
     /* portfolio (index.html) */
 
@@ -641,6 +647,16 @@ a {
         font-style: italic;
         font-size: 1.6rem;
         padding-top: 1rem;
+    }
+
+    /* about */
+    .about-heading {
+        padding-top: 9rem;
+    }
+
+    /* testimonials */
+    .testimonials-heading {
+        padding-top: 9rem;
     }
 
     /* contact */
@@ -792,7 +808,6 @@ a {
     .about-heading {
         grid-column: 1 / 3;
         grid-row: 1 / 2;
-        padding-top: 9rem;
     }
 
     .about-grid-image {
@@ -838,17 +853,12 @@ a {
     #ethos {
         padding-bottom: 6rem;
     }
-
-    .ethos-heading {
-        padding-top: 9rem;
-    }
-
+    
     /* testimonials */
      
     .testimonials-heading {
         grid-column: 1 / 4;
         grid-row: 1;
-        padding-top: 9rem;
     }
 
     .testimonials-grid {
