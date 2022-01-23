@@ -568,6 +568,24 @@ a {
 
 /* media queries */
 
+@media screen and (min-width: 576px) { 
+     /* hero */
+
+    /* hero text */
+
+    .hero-text {
+        font-size: 2.4rem;
+        letter-spacing: 2px;
+        width: 46rem;
+        height: 22rem;
+        padding: 4rem 2rem 0 2rem;
+        background-color: var(--light-grey-transparent);
+        bottom: 3rem;
+        right: 5rem;
+        position: absolute;
+    }
+}
+
 /* medium screens */
 
 @media screen and (min-width: 768px) {     
@@ -718,16 +736,8 @@ a {
 
     /* hero text */
 
-    .hero-text {
-        font-size: 2.4rem;
-        letter-spacing: 2px;
-        width: 46rem;
-        height: 22rem;
-        padding: 4rem 2rem 0 2rem;
-        background-color: var(--light-grey-transparent);
+    .hero-text {       
         bottom: 22rem;
-        right: 5rem;
-        position: absolute;
     }
 
     /* hero scroll down button */
