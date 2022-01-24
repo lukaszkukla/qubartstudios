@@ -33,7 +33,7 @@ The main goal of the project is to give a modern look to the old website and lea
             * [ethos section](#ethos-section "ethos section")
             * [portfolio section and page](#portfolio-section-and-page "portfolio section and page")
             * [about section](#about-section "about section")
-            
+            * [testimonials section](#testimonials-section "testimonials section")
             * [contact section](#contact-section "contact section")
             * [footer](#footer "footer")
         * [future developments](#future-developments "future developments")
@@ -169,7 +169,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
     - the image spans almost over the whole height of the screen and gives the user clear message about the intent of the website
     - the message over the image invites visitor to think of it as a work of art   
 
-    ![home page](assets/wireframes/index.jpg)
+    ![home page](wireframes/hamburger-menu.jpg)
 
 ### ethos section
 
@@ -178,21 +178,20 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 ### portfolio section and page
 
 * the portfolio section gives quick overview of the recent or best projects chosen by the owner
-* it has a button that allows to explore more photos on the portfolio page
+* user can click each phtot to view gallery of images
 
 ![portfolio section](wireframes/portfolio-section.jpg "portfolio section")
 ![portfolio page](wireframes/portfolio-page.jpg "portfolio page")
-
-### testimonials section
-
-* the testimonial section helps to build trust, reputation, relationship and assure the potential visitors that the qubartstuidos.com is a reliable supplier
 
 ### about section
 
 * the about section gives an information about the owner of the company, it's passion and a personal touch. Visitor can "meet" and get to "know" the owner.
 
-![about page](assets/wireframes/about.jpg "about page")
-   
+![about page](wireframes/about-section.jpg "about page")
+
+### testimonials section
+
+* the testimonial section helps to build trust, reputation, relationship and assure the potential visitors that the qubartstuidos.com is a reliable supplier 
 
 \
 &nbsp;
@@ -212,7 +211,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
     \
     &nbsp;
     \
-    ![contact section](assets/wireframes/contact.jpg "contact section")
+    ![contact section](wireframes/contact-section.jpg "contact section")
 
     ![contact section - form submitted](assets/wireframes/form-submitted.jpg "submitted form")
         
@@ -233,7 +232,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
     &nbsp;
 
-    ![footer](wireframes/footer.jpg "footer wireframe")
+    ![footer](wireframes/footer-section.jpg "footer wireframe")
     \
     &nbsp;
 
@@ -278,11 +277,9 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
-
-* [colormind](https://colormind.io/ "colormind") ****
-
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Pexels](https://www.pexels.com/ "Pexels")
 * [Unsplash](https://unsplash.com/ "Unsplash") ****
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") ****
 * [TinyPNG](https://tinypng.com/ "TinyPNG")
@@ -297,13 +294,26 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
 # testing
 
-~~I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and also make contact via the contact form or social media simply. It The content is simple and to the point and the site is not overcrowded as to put the user off.~~
+I feel that I achieved agreed goals. The site is responsive. Images were optimised for web use to load faster yet still look sharp and crips. Website is clean and simple, there is no noise to discrat the user. Each section was designed with minimalist approach. Navigation bar is sticky on all devices and on large devices upward phone number and email addres is always visible.
+
+Contact form requires minimum information to not to overwhelm potential customer. 
+
+Social media links are clear visible in the footer and open up in the separate tab so the user can always come back to the main website.
+
 \
 &nbsp;
 
-~~I have encountered several issues during testing.~~
- * ~~I initially decided to create the site with a minimum width of 992px as my largest styling, however the site just did not look right so added an x-large screen size.~~
 
+The biggest challenge and lesson learnt was that I designed the site for the large screen first 1200px and up. This caused a number of issues when trying to scale down.
+In the end I decided to refactor the whole code for the small devices firsst and use media queris to scale up for larger devices. I added grid and flex to ensure that the pages scaled nicely. 
+It was chellenging and frustrating at times but it was always fun time.
+
+![css](wireframes/css-peter.gif "css for beginners")
+
+
+During testing
+ * Hero text was too smal for devices from 568 upwards so I added media query just to deal with it
+ 
  * ~~In my wireframes, I had designed to only have a 'Join Us' button on the larger screen sizes. While I was developing the site, this did not make sense. There was such a long scroll with it being a one-page site, I felt I needed to speed up the movement for someone who was instantly interested so included it on all screen sizes.~~
 
  * ~~On actual smaller devices, instead of on Chrome Developer, the main navigation menu did not show the 'Contact' link. I simply changed the styling of the links and the changed the ul to flex-start and all is now clearly visible.~~
@@ -350,14 +360,14 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
 # deployment
 
-~~Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.~~
+Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
-* ~~Navigate to the repository on github and click 'Settings'.~~
-* ~~Then select 'Pages' on the side navigation.~~
-* ~~Select the 'None' dropdown, and then click 'master'.~~
-* ~~Click on the 'Save' button.~~
-* Now the website is now live on 
-* ~~If any changes are required, they can be done, committed and pushed to GitHub and the changes will be updated.~~
+* Navigate to the repository on github and click 'Settings'
+* Then select 'Pages' on the side navigation
+* Select the 'None' dropdown, and then click 'master'
+* Click on the 'Save' button.
+* Now the website is now live on https://lukaszkukla.github.io/qubartstudios/
+* If any changes are required, they can be done, committed and pushed to GitHub and the changes will be updated
 
 \
 &nbsp;
