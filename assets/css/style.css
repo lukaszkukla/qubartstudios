@@ -219,7 +219,7 @@ a {
 
 #portfolio {
     display: grid;
-    max-width: 120rem;    
+    max-width: 120rem;
     grid-template-rows: 1fr;
     gap: 1rem 1rem;
     margin: 0 auto;
@@ -271,7 +271,24 @@ a {
 
 #portfolio-explore {
     margin: 0 auto;
+    background: var(--coral);
+    padding: 1rem;
 }
+
+#portfolio-explore:hover {
+    background: var(--grey);
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+#portfolio-explore:active {
+    background: var(--dark-grey);
+}
+
+#portfolio-explore a {
+    color: var(--white);
+}
+
 
 /* about */
 
@@ -351,7 +368,7 @@ a {
 
 #testimonials {
     display: grid;
-    max-width: 120rem;    
+    max-width: 120rem;
     grid-template-rows: 1fr;
     margin: 0 auto;
 }
@@ -426,7 +443,8 @@ a {
     margin: 1rem auto;
 }
 
-.contact-data:hover, .contact-message:hover {
+.contact-data:hover,
+.contact-message:hover {
     border: 1px solid salmon;
 }
 
@@ -453,7 +471,7 @@ a {
     padding: 1.5rem 3.2rem;
     background-color: var(--coral);
     color: var(--white);
-    margin-left: auto;  
+    margin-left: auto;
 }
 
 .contact-button:hover {
@@ -467,9 +485,9 @@ a {
 }
 
 
- /* footer */
+/* footer */
 
- #footer {
+#footer {
     width: 100%;
     background-color: var(--grey);
     color: var(--white);
@@ -527,7 +545,7 @@ a {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;    
+    padding: 0 1rem;
     list-style: none;
 }
 
@@ -571,8 +589,8 @@ a {
 
 /* media queries */
 
-@media screen and (min-width: 576px) { 
-     /* hero */
+@media screen and (min-width: 576px) {
+    /* hero */
 
     /* hero text */
 
@@ -592,7 +610,7 @@ a {
 /* medium screens */
 
 @media screen and (min-width: 768px) {
-    
+
     /* ethos */
     .ethos-heading {
         padding-top: 9rem;
@@ -616,7 +634,7 @@ a {
     }
 
     .portfolio-content {
-        padding: 3rem 0 6rem 0;
+        padding: 3rem 0 3rem 0;
     }
 
     .portfolio-image img {
@@ -650,6 +668,11 @@ a {
         font-style: italic;
         font-size: 1.6rem;
         padding-top: 1rem;
+    }
+
+    #portfolio-explore {
+        grid-column: 1 / 4;
+        grid-row: 3;
     }
 
     /* about */
@@ -688,10 +711,10 @@ a {
     }
 
     .contact-data,
-    .contact-message {    
+    .contact-message {
         margin: 5px 0 2rem;
         display: block;
-    }    
+    }
 
     .wedding-package {
         display: block;
@@ -755,7 +778,7 @@ a {
 
     /* hero text */
 
-    .hero-text {       
+    .hero-text {
         bottom: 22rem;
     }
 
@@ -834,7 +857,7 @@ a {
     .about-moments-image {
         grid-column: 1 / 3;
         width: 100%;
-    }    
+    }
 }
 
 /* x-large screens */
@@ -845,15 +868,15 @@ a {
         font-size: 3.2rem;
         letter-spacing: 2px;
     }
-    
+
     /* ethos */
 
     #ethos {
         padding-bottom: 6rem;
     }
-    
+
     /* testimonials */
-     
+
     .testimonials-heading {
         grid-column: 1 / 4;
         grid-row: 1;
@@ -897,8 +920,8 @@ a {
         padding-right: 2rem;
     }
 
-    .footer-links-inline {        
-        justify-content: space-evenly;                
+    .footer-links-inline {
+        justify-content: space-evenly;
         padding-top: 6rem;
     }
 
