@@ -325,9 +325,20 @@ During testing
 
  * Due to change in the design strategy. I found that I had a lot of repeated code in my style.css file. It took a great deal of time to find and remove it and test to ensure that nothing I removed impacted my design
 
-* I run my webstie through [W3C Markup Validation Service](https://validator.w3.org/ "Markup validation sevrvice"). Intial response returned 7 errors and 2 warnings:
+* I run my webstie through [W3C Markup Validation Service](https://validator.w3.org/ "Markup validation sevrvice"). Intial response returned 7 errors and 2 warnings (screenshot below). Second validation returned 1 minor warning
 
-![Websit Validation](wireframes/screencapture-validator-w3-org-nu-2022-01-17-23_42_02.jpg "validation of the markup of qubartstudios, initial test")
+Initial Markup Test
+![Markup Validation](wireframes/screencapture-validator-w3-org-nu-2022-01-17-23_42_02.png "validation of the markup of qubartstudios, initial test")
+
+Second Markup Test
+![Markup Validation](wireframes/index-page-html-validation-2022-01-24.jpg "validation of the markup of qubartstudios, second test")
+
+* Subsequently I ran validation of my css styles using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service"). Which to my surprise did not return any errors.
+
+Initial CSS Test
+![CSS Validation](wireframes/portfolio-page-html-validation-2022-01-24.jpg "validation of the CSS of qubartstudios, initial test")
+
+
 
  * ~~All my buttons were styled completely differently. I added an animation to all buttons so there is a continuity between them all.~~
 
