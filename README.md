@@ -1,5 +1,3 @@
-![QubartStudios](assets/images/QubArtSudiosJakubTomczykPhotographyLogo-350x182.jpg "QubartStudios")
-
 # qubartstudios.com 
 
 # goal of this project
@@ -338,28 +336,31 @@ Second Markup Test
 Initial CSS Test
 ![CSS Validation](wireframes/portfolio-page-html-validation-2022-01-24.jpg "validation of the CSS of qubartstudios, initial test")
 
+ * Accessibility test was pushed through [experte.com](https://www.experte.com/accessibility "accessibility testing"). My intial test returned just few errors. There was an issue with the aria labels around social media icon links of each page. Also contrast ratio between text of the button and actual background color was not too strong therefore I decided to give it new --maroon-shade value. Second test came up really good.
 
+ Initail Accessibility Test
+![Accessibility Test Initial](wireframes/accessibility-test-initial.jpg "accessibility test of qubartstudios, initial test")
 
- * ~~All my buttons were styled completely differently. I added an animation to all buttons so there is a continuity between them all.~~
+ Second Accessibility Test
+![Accessibility Test Second](wireframes/accessibility-test-second.jpg "accessibility test of qubartstudios, second test")
 
- * ~~When I was validating HTML code, I had one error showing. This was in the contact form where I had a method of '#'. I was under the understanding that POST method should have been used, but when I did, it caused an error instead of going to my contact.html page. After a while I tried using GET and it worked solving my validation problem. The results of my validation for HTML and CSS are below.~~
+* Last but not least I tested website and its responsiveness on 5 browsers:
+    * [chrome](https://www.google.com/intl/en_ie/chrome/ "googel chrome browser") - used most of the time throughout the project alnog with the developer tools
+    * [firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com "mozilla firefox browser")
+    * [opera](https://www.opera.com/ "opera.com browser")
+    * [vivaldi](https://vivaldi.com/ "vivalid borwser")
+    * [edge](https://www.microsoft.com/en-us/edge "microsoft edge browser")
 
-    - HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
-    - HTML (contact.html) validator [results](wireframes/html-contact-validate.jpg "W3C HTML")
-    - CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
 \
 &nbsp;
 
- ~~On testing on a physical mobile device, I thought that the google search bar looked odd, being white and my header a dark color. For user experiance and to make it look cleaner and more fluid, I changed the color to match using the following code.~~
+Website was also tested on physical mobile devices:
+* Galaxy Tab A On testing on a physical mobile devices
+* Google Pixel 4XL
+* Iphone XR
+* iPad 6th generation 2018
 
- ```
 
- <meta name="theme-color" content="#121A18">
-
-
- ```
-
- * ~~When going through my UX section, to ensure that all my goals were met for the project, I noticed that I had missed one, 'As a user, I want to know that the club is well established'. I adjusted the text in the welcome section to suit.~~
 \
 &nbsp;
 
@@ -375,8 +376,7 @@ Initial CSS Test
 &nbsp;
 
 # deployment
-
-Following writing the code then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
+The project was deployed on GitHub pages after initial commits using following process:
 
 * Navigate to the repository on github and click 'Settings'
 * Then select 'Pages' on the side navigation
@@ -395,16 +395,13 @@ Following writing the code then committing and pushing to GitHub, this project w
 
 for code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+for readme template, structure and some ideas that sparked from using it
 
-
-
-* ~~[Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 "Marc Caron")~~ ***
-\
-&nbsp;
-
-for readme template, structure and some ideas from them
 * [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club "Sam Timmins")
 
+* peer community on [code institute](codeinstitute.com) slack channel
+
+* kasia_ci - for "standing up" to the task and listening to the whole class weekly and patiently advising on best course of action
 \
 &nbsp;
 [back to top](#table-of-contents)
