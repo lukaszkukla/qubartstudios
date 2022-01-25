@@ -117,7 +117,7 @@ I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra
  * #2c3135; - design by color
 
 ### structure
-Website is responsive with min-size of iPhone 4 (320px)
+Website is responsive with min-size of iPhone 4 (320px - wide)
 The screen size breakpoints are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
 
 | Screen Size | Breakpoint |
@@ -158,28 +158,29 @@ The wireframe of pages below:
 
 ### navigation bar
 
-Responsive navigation bar to allows for various screen sizes.
+Responsive navigation bar adapts to various screen sizes.
 Includes **active link** for the **phone number** and **emails address**.
-There is a visual cue to inform user on which section or page is currently visible. 
+Each section of the page has a clear heading to inform user on whic part of the websit is currently visible. 
 
 On smaller devices (<992px), navigation bar changes to "hamburger" style. 
 
 ### home page
 
 * home page hero image
-    - the image spans almost over the whole height of the screen and gives the user clear message about the intent of the website
-    - the message over the image invites visitor to think of it as a work of art   
+    - the image spans over the whole height of the screen and gives the user clear message about the intent of the website, thsi works for each screen size
+    - the message over the image invites visitor to think of it as a work of art 
+    - there is a "scroll down" button inviting user to explore more  
 
     ![home page](wireframes/hamburger-menu.jpg)
 
 ### ethos section
 
-* the ethos section gives a brief introduction and invitation to explore further.
+* the ethos section gives a brief introduction and invitation to explore further
 
 ### portfolio section and page
 
 * the portfolio section gives quick overview of the recent or best projects chosen by the owner
-* user can click each phtot to view gallery of images
+* user can click each photo to view gallery of images
 
 ![portfolio section](wireframes/portfolio-section.jpg "portfolio section")
 ![portfolio page](wireframes/portfolio-page.jpg "portfolio page")
