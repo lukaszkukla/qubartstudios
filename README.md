@@ -51,9 +51,9 @@ The main goal of the project is to give a modern look to the old website and lea
 ## user goals
 * visually appealing, including images
 * easily navigated around
-* quality and valuable content
 * easily found contact details
-* form to directly contact the club
+* form to directly contact the company
+* responsive design
 
 ## user stories
 * as a user, I want to see professional artwork of the photographer
@@ -71,7 +71,7 @@ The main goal of the project is to give a modern look to the old website and lea
 * modernise the existing website
 * increase traffic to the website
 * increase customer conversion
-* optimise organic SEO
+* optimise for organic SEO
 
 ## user requirements and expectations
 
@@ -99,21 +99,22 @@ The main goal of the project is to give a modern look to the old website and lea
 ## design choices
 
 ### fonts
-I used [Google Fonts](https://fonts.google.com/ "Google Fonts"). The main text is [Noto Sans](https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap "Noto Sans"). [Poppins](https://fonts.google.com/specimen/Roboto+Slab?query=rob "Poppins") is used for the headers and the navigation bar. 
+I used [Google Fonts](https://fonts.google.com/ "Google Fonts"). The font used for the entire website is [Poppins](https://fonts.google.com/specimen/Roboto+Slab?query=rob "Poppins"). 
 
 ### icons
 I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra visual cues.
 
 ### colors
 
-
-
 ![color Pallet]()
  
- * #fff - navigation bar color
- * #fbfbfb - main background color
- * #000 - font color
- * #3d8bca - input buttons color
+ * #f1f1f1; - navigation bar color
+ * #f1f1f1; and #ffffff; - main background color
+ * #4f4f4f; - font color
+ * #b11942; - input buttons color
+ * #000; and #fff; - logo colors
+ * #4f4f4f; - footer color
+ * #2c3135; - design by color
 
 ### structure
 Website is responsive with min-size of iPhone 4 (320px)
@@ -165,7 +166,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
 ### home page
 
-* home page image
+* home page hero image
     - the image spans almost over the whole height of the screen and gives the user clear message about the intent of the website
     - the message over the image invites visitor to think of it as a work of art   
 

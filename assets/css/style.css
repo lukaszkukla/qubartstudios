@@ -7,7 +7,8 @@
     --white: #fff;
     --black: #000;
     --dark-grey: #2c3135;
-    --coral: #f16c6b;
+    --maroon-shade: #b11942;
+    --green: #118102;
 }
 
 * {
@@ -149,8 +150,11 @@ a {
     z-index: 10;
 }
 
+
 .hero-image {
+    /* push hero image down so it's not covered by navbar */
     height: calc(100vh - 6rem);
+    
     width: 100%;
     background: url('../images/couple-holding-hands-pexels-jeremy-wong-1043902.jpg') no-repeat center center;
 
@@ -271,7 +275,7 @@ a {
 
 #portfolio-explore {
     margin: 0 auto;
-    background: var(--coral);
+    background: var(--maroon-shade);
     padding: 1rem;
 }
 
@@ -445,7 +449,7 @@ a {
 
 .contact-data:hover,
 .contact-message:hover {
-    border: 1px solid salmon;
+    border: 1px solid var(--maroon-shade);
 }
 
 .contact-message {
@@ -469,7 +473,7 @@ a {
     font-size: 1.6rem;
     border-radius: 2px;
     padding: 1.5rem 3.2rem;
-    background-color: var(--coral);
+    background-color: var(--maroon-shade);
     color: var(--white);
     margin-left: auto;
 }
@@ -480,7 +484,7 @@ a {
 }
 
 .contact-button:active {
-    background-color: #118102;
+    background: var(--green);
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -519,13 +523,7 @@ a {
     transition: transform 0.3s ease-in-out;
     width: 10rem;
     height: 10rem;
-    color: #fff;
-    display: inline-block;
-    padding: 1.6rem;
-    transition: transform 0.3s ease-in-out;
-    width: 10rem;
-    height: 10rem;
-    color: #fff;
+    color: var(--white);
 }
 
 .social-media-links:hover {
@@ -651,7 +649,7 @@ a {
     text-align: center;
     max-width: 20rem;
     margin: 0 auto;
-    background: var(--coral);
+    background: var(--maroon-shade);
     padding: 1rem;
 }
 
@@ -899,7 +897,7 @@ a {
 
     .navbar-items a:hover {
         text-decoration: underline;
-        color: #000;
+        color: var(--black);
         transition: color 0.3s ease-in-out;
     }
 
