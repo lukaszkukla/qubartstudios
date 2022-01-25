@@ -11,6 +11,9 @@ Customers can get in touch with the studio directly by the phone, through the co
 
 The main goal of the project is to give a modern look to the old website and learn along the way.
 
+![responisive design](wireframes/responsive-design.jpg "responive design for variouse device sizes")
+
+
 # table of contents
 
 * [ux](#ux "ux")
@@ -106,7 +109,7 @@ I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra
 
 ### colors
 
-![color Pallet]()
+![color Pallet](wireframes/color-pallette.jpg)
  
  * #f1f1f1; - navigation bar color
  * #f1f1f1; and #ffffff; - main background color
@@ -204,18 +207,17 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 ### contact section
 
 * the contact section provides basic information to help visitor to get in touch with qubartstudios.com 
-   
 * name, email address and the message fields are required. Email is also validated
 * all fields are labelled and include words "required" or "optional" for the accessibility purposes
 * additional visual cue is provided when hover over or select any of the fields
-* instant feedback is provided upon form submission
+* instant feedback is provided upon form submission in the form of thanks.html page
 
     \
     &nbsp;
     \
     ![contact section](wireframes/contact-section.jpg "contact section")
 
-    ![contact section - form submitted](assets/wireframes/form-submitted.jpg "submitted form")
+    ![contact section - form submitted](wireframes/thanks-page.jpg "thank you page on contact form submission")
         
 \
 &nbsp;
@@ -241,9 +243,9 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
 ## future developments
 
+* expand on portfolio gallery, each photo to represtent different wedding in the gallery and links to sub-category page with related photos 
 * package pricing page
-* video content gallery
-* expand on portfolio galleries 
+* video content gallery and with the description of services available 
 * additional services:
     * anniversary photography
     * engagement photography
@@ -282,8 +284,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Pexels](https://www.pexels.com/ "Pexels")
-* [Unsplash](https://unsplash.com/ "Unsplash") ****
-* [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com") ****
+* [WebFX](https://www.webfx.com/web-design/color-picker/F1F1F1/ "WebFX color scheme generator")
 * [TinyPNG](https://tinypng.com/ "TinyPNG")
 * [Photoshop](https://www.adobe.com/ie/products/photoshop.html "Adobe Photoshop")
 * [qubartstudios.com](https://qubartstudios.com "qubartstudios.com")
@@ -314,17 +315,19 @@ It was chellenging and frustrating at times but it was always fun time.
 
 
 During testing
- * Hero text was too smal for devices from 568 upwards so I added media query just to deal with it
+ * Hero text was too small for devices from 576px upwards so I added media query just to deal with it
  
- * ~~In my wireframes, I had designed to only have a 'Join Us' button on the larger screen sizes. While I was developing the site, this did not make sense. There was such a long scroll with it being a one-page site, I felt I needed to speed up the movement for someone who was instantly interested so included it on all screen sizes.~~
+ * In my wireframes, I had designed about page as a separate html page. In the end I did not like idea to be directed to a different page just to see those details. I embedded it in between portfolio and testimonials section on the index.html page
 
- * ~~On actual smaller devices, instead of on Chrome Developer, the main navigation menu did not show the 'Contact' link. I simply changed the styling of the links and the changed the ul to flex-start and all is now clearly visible.~~
+ * When I switched to iPhone 4 device size my hamburger menu would disappear. I found chrome extension **[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln "Unicorn Revealer - helps to identify overflow items on website")** - designed actually by my mentor Simen - that helps to identify items which overflow. This tool helped me to identify the cluprit quickly and deal with it. The social media icon had padding too big for smaller screens and pushed the width of the website beyond the viewport
+ 
+ * I had issue with the top of hero image on smaller devices. 100vh viewport was actually longer than the visible screen. After couple of trial and errors I noticed the this is caused by the navigation bar. This is where I developed image height to be a calculated figure that takes 100vh and subtracts height of the navbar of 6rem. This gives a nice full screen view of the hero image one every screen size
 
- * ~~I was having issues with the navigation bar scrolling about 15px when I scrolled down on smaller devices whilst working on Chrome Developer. I lost a lot of time trying to figure out the issue, but when I tried the site on an acual device, the navigation bar stayed fixed as the code dictated. This was a bug in Chrome Developer and not with my site.~~
+ * Due to change in the design strategy. I found that I had a lot of repeated code in my style.css file. It took a great deal of time to find and remove it and test to ensure that nothing I removed impacted my design
 
- * ~~The main navigation on smaller devices was initially set to 90vh, however on testing on a physical device, the user could see the site scrolling at the bottom if they were to slide up or down. This looked very poor and clumsy on the eye, so I adjusted it to 100vh to cover it up.~~
+* I run my webstie through [W3C Markup Validation Service](https://validator.w3.org/ "Markup validation sevrvice"). Intial response returned 7 errors and 2 warnings:
 
- * ~~I found that I was repeating a lot of code in my style.css file in order to center items. I created a class to do this and then applied it whee needed.~~
+![Websit Validation](wireframes/screencapture-validator-w3-org-nu-2022-01-17-23_42_02.jpg "validation of the markup of qubartstudios, initial test")
 
  * ~~All my buttons were styled completely differently. I added an animation to all buttons so there is a continuity between them all.~~
 
