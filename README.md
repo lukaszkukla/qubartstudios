@@ -25,6 +25,7 @@ The main goal of the project is to give a modern look to the old website and lea
         * [fonts](#fonts "fonts")
         * [icons](#icons "icons")
         * [colors](#colors "colors")
+        * [images](#images "images")
         * [structure](#structure "structure")
     * [wireframes](#wireframes "wireframes")
     * [features](#features "features")
@@ -117,6 +118,11 @@ I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra
  * #4f4f4f; - footer color
  * #2c3135; - design by color
 
+### images
+All images on the webiste were compressed using [TinyPNG](https://tinypng.com/ "tinypng.com for image compression")
+
+![TinyPNG image compression results](wireframes/image-optimisation.jpg "image compression results")
+
 ### structure
 Website is responsive with min-size of iPhone 4 (320px - wide)
 The screen size breakpoints are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -141,11 +147,11 @@ wireframes are designed for large screen only. I used [Mozilla Firefox](https://
 
 The wireframe of pages below:
 
-[home page](assets/wireframes/home.png "home wireframe")
+[home page](assets/wireframes/home.png "home wireframe") - actual drawings to be added 26/01/2022
 
-[portfolio page](assets/wireframes/portfolio.png "portfolio wireframe")
+[portfolio page](assets/wireframes/portfolio.png "portfolio wireframe") - actual drawings to be added 26/01/2022
 
-[about page](assets/wireframes/about.png "about wireframe")
+[about page](assets/wireframes/about.png "about wireframe") - actual drawings to be added 26/01/2022
 
 \
 &nbsp;
@@ -183,7 +189,10 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * the portfolio section gives quick overview of the recent or best projects chosen by the owner
 * user can click each photo to view gallery of images
 
+portfolio - index.html page
 ![portfolio section](wireframes/portfolio-section.jpg "portfolio section")
+
+gallery of images - portfolio.html page
 ![portfolio page](wireframes/portfolio-page.jpg "portfolio page")
 
 ### about section
@@ -212,9 +221,11 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 
     \
     &nbsp;
-    \
+    
+    contact form
     ![contact section](wireframes/contact-section.jpg "contact section")
 
+    form submission confirmation - thanks.html page
     ![contact section - form submitted](wireframes/thanks-page.jpg "thank you page on contact form submission")
         
 \
@@ -301,9 +312,6 @@ Contact form requires minimum information to not to overwhelm potential customer
 
 Social media links are clear visible in the footer and open up in the separate tab so the user can always come back to the main website.
 
-\
-&nbsp;
-
 
 The biggest challenge and lesson learnt was that I designed the site for the large screen first 1200px and up. This caused a number of issues when trying to scale down.
 In the end I decided to refactor the whole code for the small devices firsst and use media queris to scale up for larger devices. I added grid and flex to ensure that the pages scaled nicely. 
@@ -360,14 +368,12 @@ Website was also tested on physical mobile devices:
 * Iphone XR
 * iPad 6th generation 2018
 
-
 \
 &nbsp;
 
 ## unfixed bugs
-
-~~My learning has limited my use of the hamburger for smaller devices. It works nicely to open the menu up, but a tap of the hamburger again should close the menu down again. It does not do this, and the link has to be selected to enable the user to exit out of it. From my research it seems that all the streamline methods are using JavaScript and I am yet to learn this.~~
-
+I have not come across any bugs other bugs since the testing was finished. I know my current skills requrie many more hours before I can build up my expertise and discover them. What I think current state of the webiste requires is code refactoring. I would like to revisit the html structure, classes and ids. I am sure I could cut down on lines of code in my CSS file to make it better.
+Other than that website needs more features mentioned in [future developments](#future-developments) section.
 
 \
 &nbsp;
