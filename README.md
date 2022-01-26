@@ -9,7 +9,7 @@ Customers can get in touch with the studio directly by the phone, through the co
 
 The main goal of the project is to give a modern look to the old website and learn along the way.
 
-![responisive design](wireframes/responsive-design.jpg "responive design for variouse device sizes")
+![responisive design](docs/screenshots/responsive-design.jpg "responive design for variouse device sizes")
 
 
 # table of contents
@@ -24,8 +24,7 @@ The main goal of the project is to give a modern look to the old website and lea
      * [design choices](#design-choices "design choices")
         * [fonts](#fonts "fonts")
         * [icons](#icons "icons")
-        * [colors](#colors "colors")
-        * [images](#images "images")
+        * [colors](#colors "colors")        
         * [structure](#structure "structure")
     * [wireframes](#wireframes "wireframes")
     * [features](#features "features")
@@ -44,7 +43,9 @@ The main goal of the project is to give a modern look to the old website and lea
         * [libraries and frameworks](#libraries-and-frameworks "libraries and frameworks")
         * [tools](#tools "tools")
     * [testing](#testing "testing")
-        * [unfixed bugs](#unfixed-bugs "unfixed bugs")
+        * [images](#images "images")
+        * [during testing](#during-testing "during teting") 
+        * [unfixed bugs](#unfixed-bugs "unfixed bugs")        
     * [deployment](#deployment "deployment")
     * [credits](#credits "credits")
     
@@ -108,7 +109,7 @@ I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra
 
 ### colors
 
-![color Pallet](wireframes/color-pallette.jpg)
+![color Pallet](docs/screenshots/color-pallette.jpg)
  
  * #f1f1f1; - navigation bar color
  * #f1f1f1; and #ffffff; - main background color
@@ -117,11 +118,6 @@ I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra
  * #000; and #fff; - logo colors
  * #4f4f4f; - footer color
  * #2c3135; - design by color
-
-### images
-All images on the webiste were compressed using [TinyPNG](https://tinypng.com/ "tinypng.com for image compression")
-
-![TinyPNG image compression results](wireframes/image-optimisation.jpg "image compression results")
 
 ### structure
 Website is responsive with min-size of iPhone 4 (320px - wide)
@@ -147,11 +143,21 @@ wireframes are designed for large screen only. I used [Mozilla Firefox](https://
 
 The wireframe of pages below:
 
-[home page](assets/wireframes/home.png "home wireframe") - actual drawings to be added 26/01/2022
+* index.html page
+![index page](docs/wireframes/index-page.jpg "index page wireframe") 
 
-[portfolio page](assets/wireframes/portfolio.png "portfolio wireframe") - actual drawings to be added 26/01/2022
+\
+&nbsp;
 
-[about page](assets/wireframes/about.png "about wireframe") - actual drawings to be added 26/01/2022
+* portfolio.html page
+![portfolio page](docs/wireframes/portfolio-page.jpg "portfolio wireframe") 
+
+\
+&nbsp;
+
+
+* mobile version of the page
+![mobile version](docs/wireframes/mobile-version.jpg "mobile wireframe")
 
 \
 &nbsp;
@@ -178,7 +184,7 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
     - the message over the image invites visitor to think of it as a work of art 
     - there is a "scroll down" button inviting user to explore more  
 
-    ![home page](wireframes/hamburger-menu.jpg)
+    ![home page](docs/screenshots/hamburger-menu.jpg)
 
 ### ethos section
 
@@ -190,16 +196,16 @@ On smaller devices (<992px), navigation bar changes to "hamburger" style.
 * user can click each photo to view gallery of images
 
 portfolio - index.html page
-![portfolio section](wireframes/portfolio-section.jpg "portfolio section")
+![portfolio section](docs/screenshots/portfolio-section.jpg "portfolio section")
 
 gallery of images - portfolio.html page
-![portfolio page](wireframes/portfolio-page.jpg "portfolio page")
+![portfolio page](docs/screenshots/portfolio-page.jpg "portfolio page")
 
 ### about section
 
 * the about section gives an information about the owner of the company, it's passion and a personal touch. Visitor can "meet" and get to "know" the owner.
 
-![about page](wireframes/about-section.jpg "about page")
+![about page](docs/screenshots/about-section.jpg "about page")
 
 ### testimonials section
 
@@ -223,10 +229,10 @@ gallery of images - portfolio.html page
     &nbsp;
     
     contact form
-    ![contact section](wireframes/contact-section.jpg "contact section")
+    ![contact section](docs/screenshots/contact-section.jpg "contact section")
 
     form submission confirmation - thanks.html page
-    ![contact section - form submitted](wireframes/thanks-page.jpg "thank you page on contact form submission")
+    ![contact section - form submitted](docs/screenshots/thanks-page.jpg "thank you page on contact form submission")
         
 \
 &nbsp;
@@ -245,7 +251,7 @@ gallery of images - portfolio.html page
 
     &nbsp;
 
-    ![footer](wireframes/footer-section.jpg "footer wireframe")
+    ![footer](docs/screenshots/footer-section.jpg "footer wireframe")
     \
     &nbsp;
 
@@ -289,9 +295,6 @@ gallery of images - portfolio.html page
 * [diagrams.net](https://diagrams.net/ "diagrams.net")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [Bootstrap](https://getbootstrap.com "Bootstrap")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Pexels](https://www.pexels.com/ "Pexels")
 * [WebFX](https://www.webfx.com/web-design/color-picker/F1F1F1/ "WebFX color scheme generator")
 * [TinyPNG](https://tinypng.com/ "TinyPNG")
@@ -317,10 +320,14 @@ The biggest challenge and lesson learnt was that I designed the site for the lar
 In the end I decided to refactor the whole code for the small devices firsst and use media queris to scale up for larger devices. I added grid and flex to ensure that the pages scaled nicely. 
 It was chellenging and frustrating at times but it was always fun time.
 
-![css](wireframes/css-peter.gif "css for beginners")
+![css](docs/screenshots/css-peter.gif "css for beginners")
 
+## images
+All images on the webiste were compressed using [TinyPNG](https://tinypng.com/ "tinypng.com for image compression")
 
-During testing
+![TinyPNG image compression results](docs/screenshots/image-optimisation.jpg "image compression results")
+
+## during testing
  * Hero text was too small for devices from 576px upwards so I added media query just to deal with it
  
  * In my wireframes, I had designed about page as a separate html page. In the end I did not like idea to be directed to a different page just to see those details. I embedded it in between portfolio and testimonials section on the index.html page
@@ -334,23 +341,23 @@ During testing
 * I run my webstie through [W3C Markup Validation Service](https://validator.w3.org/ "Markup validation sevrvice"). Intial response returned 7 errors and 2 warnings (screenshot below). Second validation returned 1 minor warning
 
 Initial Markup Test
-![Markup Validation](wireframes/screencapture-validator-w3-org-nu-2022-01-17-23_42_02.png "validation of the markup of qubartstudios, initial test")
+![Markup Validation](docs/screenshots/screencapture-validator-w3-org-nu-2022-01-17-23_42_02.png "validation of the markup of qubartstudios, initial test")
 
 Second Markup Test
-![Markup Validation](wireframes/index-page-html-validation-2022-01-24.jpg "validation of the markup of qubartstudios, second test")
+![Markup Validation](docs/screenshots/index-page-html-validation-2022-01-24.jpg "validation of the markup of qubartstudios, second test")
 
 * Subsequently I ran validation of my css styles using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service"). Which to my surprise did not return any errors.
 
 Initial CSS Test
-![CSS Validation](wireframes/portfolio-page-html-validation-2022-01-24.jpg "validation of the CSS of qubartstudios, initial test")
+![CSS Validation](docs/screenshots/portfolio-page-html-validation-2022-01-24.jpg "validation of the CSS of qubartstudios, initial test")
 
  * Accessibility test was pushed through [experte.com](https://www.experte.com/accessibility "accessibility testing"). My intial test returned just few errors. There was an issue with the aria labels around social media icon links of each page. Also contrast ratio between text of the button and actual background color was not too strong therefore I decided to give it new --maroon-shade value. Second test came up really good.
 
  Initail Accessibility Test
-![Accessibility Test Initial](wireframes/accessibility-test-initial.jpg "accessibility test of qubartstudios, initial test")
+![Accessibility Test Initial](docs/screenshots/accessibility-test-initial.jpg "accessibility test of qubartstudios, initial test")
 
  Second Accessibility Test
-![Accessibility Test Second](wireframes/accessibility-test-second.jpg "accessibility test of qubartstudios, second test")
+![Accessibility Test Second](docs/screenshots/accessibility-test-second.jpg "accessibility test of qubartstudios, second test")
 
 * Last but not least I tested website and its responsiveness on 5 browsers:
     * [chrome](https://www.google.com/intl/en_ie/chrome/ "googel chrome browser") - used most of the time throughout the project alnog with the developer tools
@@ -372,7 +379,7 @@ Website was also tested on physical mobile devices:
 &nbsp;
 
 ## unfixed bugs
-I have not come across any bugs other bugs since the testing was finished. I know my current skills requrie many more hours before I can build up my expertise and discover them. What I think current state of the webiste requires is code refactoring. I would like to revisit the html structure, classes and ids. I am sure I could cut down on lines of code in my CSS file to make it better.
+I have not come across any other bugs since the testing was finished. I know my current skills requrie many more hours before I can build up my expertise and discover them. I thinks that current state of the webiste requires code refactoring. I would like to revisit the html structure, classes and ids. I am sure I could cut down on lines of code in my CSS file to make it better.
 Other than that website needs more features mentioned in [future developments](#future-developments) section.
 
 \
@@ -399,15 +406,14 @@ The project was deployed on GitHub pages after initial commits using following p
 
 # credits
 
-for code inspiration, help and advice,
-* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-for readme template, structure and some ideas that sparked from using it
 
-* [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club "Sam Timmins")
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") - for code inspiration, help and advice
+
+* [Sam Timmins](https://github.com/sam-timmins/T4Tri-triathlon-club "Sam Timmins") - for readme template, structure and some ideas that sparked from using it
 
 * peer community on [code institute](codeinstitute.com) slack channel
 
-* kasia_ci - for "standing up" to the task and listening to the whole class weekly and patiently advising on best course of action
+* kasia_ci from [code institute](codeinstitute.com) - for "standing up" to the task and listening to the whole class weekly and patiently advising on best course of action
 \
 &nbsp;
 [back to top](#table-of-contents)
