@@ -289,14 +289,18 @@ gallery of images - portfolio.html page
 ## libraries and frameworks
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
 ## tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Github](https://www.github.com/ "Github")
 * [diagrams.net](https://diagrams.net/ "diagrams.net")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [autoprefixer](https://autoprefixer.github.io/ "autoprefixer")
+* [lighthouse](https://developers.google.com/web/tools/lighthouse "lighthouse")
 * [Pexels](https://www.pexels.com/ "Pexels")
 * [WebFX](https://www.webfx.com/web-design/color-picker/F1F1F1/ "WebFX color scheme generator")
+* [cdnjs.com](https://cdnjs.com/ "cdnjs.com")
 * [TinyPNG](https://tinypng.com/ "TinyPNG")
 * [Photoshop](https://www.adobe.com/ie/products/photoshop.html "Adobe Photoshop")
 * [qubartstudios.com](https://qubartstudios.com "qubartstudios.com")
@@ -314,7 +318,6 @@ I feel that I achieved agreed goals. The site is responsive. Images were optimis
 Contact form requires minimum information to not to overwhelm potential customer. 
 
 Social media links are clear visible in the footer and open up in the separate tab so the user can always come back to the main website.
-
 
 The biggest challenge and lesson learnt was that I designed the site for the large screen first 1200px and up. This caused a number of issues when trying to scale down.
 In the end I decided to refactor the whole code for the small devices firsst and use media queris to scale up for larger devices. I added grid and flex to ensure that the pages scaled nicely. 
@@ -359,6 +362,29 @@ Initial CSS Test
  Second Accessibility Test
 ![Accessibility Test Second](docs/screenshots/accessibility-test-second.jpg "accessibility test of qubartstudios, second test")
 
+* Final testing was performed by Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse "lighthouse")
+
+desktop size version
+
+![lighthouse test desktop](docs/screenshots/lighthouse-desktop.jpg "lighthouse desktop test")
+
+\
+&nbsp;
+mobile size version
+![lighthouse test desktop](docs/screenshots/lighthouse-mobile.jpg "lighthouse mobile test")
+
+\
+&nbsp;
+
+* Website was also tested on physical mobile devices:
+    * Galaxy Tab A On testing on a physical mobile devices
+    * Google Pixel 4XL
+    * Iphone XR
+    * iPad 6th generation 2018
+
+\
+&nbsp;
+
 * Last but not least I tested website and its responsiveness on 5 browsers:
     * [chrome](https://www.google.com/intl/en_ie/chrome/ "googel chrome browser") - used most of the time throughout the project alnog with the developer tools
     * [firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com "mozilla firefox browser")
@@ -368,19 +394,15 @@ Initial CSS Test
 
 \
 &nbsp;
-
-Website was also tested on physical mobile devices:
-* Galaxy Tab A On testing on a physical mobile devices
-* Google Pixel 4XL
-* Iphone XR
-* iPad 6th generation 2018
-
+[back to top](#table-of-contents)
 \
 &nbsp;
 
 ## unfixed bugs
-I have not come across any other bugs since the testing was finished. I know my current skills requrie many more hours before I can build up my expertise and discover them. I thinks that current state of the webiste requires code refactoring. I would like to revisit the html structure, classes and ids. I am sure I could cut down on lines of code in my CSS file to make it better.
-Other than that website needs more features mentioned in [future developments](#future-developments) section.
+* The mobile version of the website should have smaller image to in the place of the full desktop one. This would improve its performace.
+* I come across weird issue on during my tests on Vivaldi and Firefox website. Althoug CSS code was run through [autoprefixer](https://autoprefixer.github.io/ "autoprefixer") this did not fixe the issue. The issue is with the first landscape image on the portfolio page where the image does not span to full width of the grid container when I change the width of it with the developer tools. It only happens in those 2 browsers.
+* I would like to revisit the html structure, classes and ids. I am sure I could cut down on lines of code in my CSS file to make it better.
+Other than that qubartstudios website needs more features mentioned in [future developments](#future-developments) section.
 
 \
 &nbsp;
