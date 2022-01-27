@@ -1,7 +1,7 @@
 # qubartstudios.com 
 
 # goal of this project
-Welcome to Qubart Studios. This is a professional photographer's website. The domain of qubartstudios.com is wedding photography.
+Welcome to qubartstudios. This is a professional photographer's website. The domain of qubartstudios.com is wedding photography.
 
 The site targets potential customers who are planning their weddings. It gives an overview of previous artwork and backs it up with strong customer testimonials.
 
@@ -103,6 +103,8 @@ The main goal of the project is to give a modern look to the old website and lea
 
 ### fonts
 I used [Google Fonts](https://fonts.google.com/ "Google Fonts"). The font used for the entire website is [Poppins](https://fonts.google.com/specimen/Roboto+Slab?query=rob "Poppins"). 
+
+The use of **small caps** for headings, navbars and other components on the website is **intentional** and is part of the design. This also applies to readme.md file.
 
 ### icons
 I used [Font Awesome library](https://fontawesome.com/ "Font Awesome") for extra visual cues.
@@ -349,6 +351,9 @@ Initial Markup Test
 Second Markup Test
 ![Markup Validation](docs/screenshots/index-page-html-validation-2022-01-24.jpg "validation of the markup of qubartstudios, second test")
 
+Third Markup Test
+![Markup Validation](docs/screenshots/index-page-html-validation-2022-01-27.jpg "validation of the markup of qubartstudios, third and final test")
+
 * Subsequently I ran validation of my css styles using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service"). Which to my surprise did not return any errors.
 
 Initial CSS Test
@@ -364,15 +369,26 @@ Initial CSS Test
 
 * Final testing was performed by Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse "lighthouse")
 
-desktop size version
+desktop size index.html
+![lighthouse test desktop](docs/screenshots/lighthouse-desktop-index-page.jpg "lighthouse desktop test of index.html")
 
-![lighthouse test desktop](docs/screenshots/lighthouse-desktop.jpg "lighthouse desktop test")
+desktop size portfolio.html
+![lighthouse test desktop](docs/screenshots/lighthouse-desktop-portfolio-page.jpg "lighthouse desktop test of portfolio.html")
+
+desktop size thanks.html
+![lighthouse test desktop](docs/screenshots/lighthouse-desktop-thanks-page.jpg "lighthouse desktop test of thanks.html")
 
 \
 &nbsp;
-mobile size version
-![lighthouse test desktop](docs/screenshots/lighthouse-mobile.jpg "lighthouse mobile test")
+\
+mobile size index.html
+![lighthouse test mobile](docs/screenshots/lighthouse-mobile-index-page.jpg "lighthouse mobile test of index.html")
 
+mobile size portfolio.html
+![lighthouse test mobile](docs/screenshots/lighthouse-mobile-portfolio-page.jpg "lighthouse mobile test of portfolio.html")
+
+mobile size thanks.html
+![lighthouse test mobile](docs/screenshots/lighthouse-mobile-thanks-page.jpg "lighthouse mobile test of thanks.html")
 \
 &nbsp;
 
